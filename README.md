@@ -1,3 +1,13 @@
+@Mahmud Hasan Riad
 # APIVerification
 
-Uploading Soon
+#) How To Run:
+
+   	-    Run  BuildAndRun.sh file using absolute path
+	
+  The command should be like
+  
+        - YourPathtoProjectFolder/BuildAndRun.sh 
+	
+  
+Cheers !!!!
