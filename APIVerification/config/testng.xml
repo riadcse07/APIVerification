@@ -1,0 +1,37 @@
+<!-- 
+@Mahmud Hasan Riad
+ -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="com.api.test" verbose="0">
+	
+	<packages>
+		<package name="Test" />
+	</packages>
+	
+	<test name="TestServiceMD5">
+		<classes>
+			<class name="Test.TestServiceMD5">
+				<methods>
+					<include name="checkResponseWithValidParam"/>	
+					<include name="checkResponseWithInvalidParam"/>	
+					<include name="checkResponseWithoutParam"/>	
+					<include name="checkResponseWithBlankParamValue"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TestServiceMD5Two">
+		<classes>
+			<class name="Test.TestServiceMD5">
+				<methods>
+					<include name="checkMD5HashValueFormat"/>	
+					<include name="checkOriginalText"/>	
+					<include name="crosscheckServiceMD5"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

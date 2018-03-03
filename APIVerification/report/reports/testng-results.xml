@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.api.test" duration-ms="7027" started-at="2018-03-02T08:46:32Z" finished-at="2018-03-02T08:46:39Z">
+    <groups>
+    </groups>
+    <test name="TestServiceMD5" duration-ms="5647" started-at="2018-03-02T08:46:32Z" finished-at="2018-03-02T08:46:38Z">
+      <class name="Test.TestServiceMD5">
+        <test-method status="PASS" signature="testBeforeTest(org.testng.ITestContext)[pri:0, instance:Test.TestServiceMD5@6a38e57f]" name="testBeforeTest" is-config="true" duration-ms="11" started-at="2018-03-02T14:46:32Z" finished-at="2018-03-02T14:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@141e5bef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="checkResponseWithValidParam()[pri:0, instance:Test.TestServiceMD5@6a38e57f]" name="checkResponseWithValidParam" duration-ms="4569" started-at="2018-03-02T14:46:32Z" finished-at="2018-03-02T14:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseWithValidParam -->
+        <test-method status="PASS" signature="checkResponseWithInvalidParam()[pri:0, instance:Test.TestServiceMD5@6a38e57f]" name="checkResponseWithInvalidParam" duration-ms="334" started-at="2018-03-02T14:46:37Z" finished-at="2018-03-02T14:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseWithInvalidParam -->
+        <test-method status="PASS" signature="checkResponseWithoutParam()[pri:0, instance:Test.TestServiceMD5@6a38e57f]" name="checkResponseWithoutParam" duration-ms="356" started-at="2018-03-02T14:46:37Z" finished-at="2018-03-02T14:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseWithoutParam -->
+        <test-method status="PASS" signature="checkResponseWithBlankParamValue()[pri:0, instance:Test.TestServiceMD5@6a38e57f]" name="checkResponseWithBlankParamValue" duration-ms="366" started-at="2018-03-02T14:46:38Z" finished-at="2018-03-02T14:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseWithBlankParamValue -->
+      </class> <!-- Test.TestServiceMD5 -->
+    </test> <!-- TestServiceMD5 -->
+    <test name="TestServiceMD5Two" duration-ms="1082" started-at="2018-03-02T08:46:38Z" finished-at="2018-03-02T08:46:39Z">
+      <class name="Test.TestServiceMD5">
+        <test-method status="PASS" signature="testBeforeTest(org.testng.ITestContext)[pri:0, instance:Test.TestServiceMD5@198e2867]" name="testBeforeTest" is-config="true" duration-ms="1" started-at="2018-03-02T14:46:38Z" finished-at="2018-03-02T14:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f9be66c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="checkMD5HashValueFormat()[pri:0, instance:Test.TestServiceMD5@198e2867]" name="checkMD5HashValueFormat" duration-ms="377" started-at="2018-03-02T14:46:38Z" finished-at="2018-03-02T14:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMD5HashValueFormat -->
+        <test-method status="PASS" signature="checkOriginalText()[pri:0, instance:Test.TestServiceMD5@198e2867]" name="checkOriginalText" duration-ms="355" started-at="2018-03-02T14:46:39Z" finished-at="2018-03-02T14:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOriginalText -->
+        <test-method status="PASS" signature="crosscheckServiceMD5()[pri:0, instance:Test.TestServiceMD5@198e2867]" name="crosscheckServiceMD5" duration-ms="348" started-at="2018-03-02T14:46:39Z" finished-at="2018-03-02T14:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crosscheckServiceMD5 -->
+      </class> <!-- Test.TestServiceMD5 -->
+    </test> <!-- TestServiceMD5Two -->
+  </suite> <!-- com.api.test -->
+</testng-results>
